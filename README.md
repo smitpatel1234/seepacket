@@ -29,6 +29,6 @@ The project includes a precompiled executable **(`packet_capture.exe`)**, but if
 
 ```bash
 g++ -o packet_capture smit.cpp ^
-   -I"C:/Users/SMIT PATEL/Desktop/packet_cpature_tool/WpdPack_4_1_2/WpdPack/Include" ^
-   -L"C:/Users/SMIT PATEL/Desktop/packet_cpature_tool/WpdPack_4_1_2/WpdPack/Lib/x64" ^
+   -I"C:/path/packet_cpature_tool/WpdPack_4_1_2/WpdPack/Include" ^
+   -L"C:/path/Desktop/packet_cpature_tool/WpdPack_4_1_2/WpdPack/Lib/x64" ^
    -lwpcap -liphlpapi -lws2_32
